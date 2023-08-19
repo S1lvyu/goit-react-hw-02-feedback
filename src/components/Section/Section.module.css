@@ -1,0 +1,11 @@
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px gray;
+  background-color: ghostwhite;
+}
+.container__title {
+  text-align: center;
+}

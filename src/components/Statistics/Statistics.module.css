@@ -1,0 +1,26 @@
+.list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.list__item {
+  font-size: 20px;
+}
+.result {
+  font-weight: bold;
+}
+.list__item:nth-child(1) .result {
+  color: green;
+}
+.list__item:nth-child(2) .result {
+  color: yellowgreen;
+}
+.list__item:nth-child(3) .result {
+  color: red;
+}
+.text {
+  font-size: 18px;
+  padding-left: 50px;
+}
